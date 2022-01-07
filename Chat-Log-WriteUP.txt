@@ -1,0 +1,38 @@
+                                                    Chat Log Application
+
+Details:-
+
+
+1.Created a folder named Chat-Log and inside that all the stuffs has Done.
+
+2.Nodejs allows the modules of libraries to be included in the application. These modules can be user-defined or third party modules.
+==>The third party modules can be installed using the following command:
+*npm install express
+*npm install socket.io
+*npm install http
+
+
+
+3. The installed modules can be used using the require() function:
+==>const express = require('express');
+==>const http = require('http').Server(app);
+==>const io = require('socket.io')(http);
+
+4.In Node apps we will be using a package.json file to maintain the module versions. This file can be created by this command:
+
+==>npm init
+
+5.Next we will create a app.js file.
+
+In this file we need to require Express and create a reference to a variable from an instance of Express.
+Static contents like HTML, CSS or JavaScript can be served using express.js
+
+6. we can start listening to a port using the port number==> localhost:3000
+
+7. When we run the localhost :3000 our chat application will appear and start chat with different users.
+
+8. When user connect to the chat app it will display user connected and when user exit from the chat browser user gets disconnected.
+
+9. The chats which users make in the chat browser will store in the mongodb database.
+
+10. We can fetch the chat data from the database.
